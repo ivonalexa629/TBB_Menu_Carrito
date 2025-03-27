@@ -1,0 +1,121 @@
+#cart-container{
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .tarjeta-producto{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    gap: 20px;
+  }
+  
+  .tarjeta-producto img{
+    height: 80%;
+    aspect-ratio: 2;
+    gap: 20px;  
+  }
+  
+  .tarjeta-producto h3{
+    width: 130px;
+  }
+  .tarjeta-producto div{
+    background-color:orange;
+    padding: 3px;
+    border-radius: 5px;
+    color: black;
+    font-size: larger;
+    
+  } 
+  
+  #totales{
+    text-align: center;
+  }
+  
+  #carrito-vacio{
+    text-align: center;
+  }
+
+  #comprar{
+    background-color:orange;
+    padding: 6px;
+    border-radius: 5px;
+    cursor:pointer;
+    color: black;
+    border-color: black;
+    font-size: larger;
+    box-shadow: 0 -3px 5px rgb(170, 168, 168);
+
+
+  }
+
+  #eliminar{
+    background-color:orange;
+    padding: 6px;
+    border-radius: 5px;
+    cursor:pointer;
+    color: black;
+    border-color: black;
+    font-size: larger;
+    box-shadow: 0 -3px 3px rgb(170, 168, 168);
+
+  }
+
+  #eliminar:hover{
+    translate: 0 -5px;
+    box-shadow: 0 3px 3px rgb(170, 168, 168);
+}
+
+#comprar:hover{
+  translate: 0 -5px;
+  box-shadow: 0 3px 3px rgb(170, 168, 168);
+}
+
+#mas{
+  background-color:orange; 
+  border-radius: 3px;
+  cursor:pointer;
+  color: black;
+  font-size: 0.5em;  
+  margin-bottom: 5px;
+}
+
+#menos{
+  background-color:orange;  
+  border-radius: 3px;
+  cursor:pointer;
+  color: black;
+  font-size: 0.5em;  
+  margin-bottom: 5px;
+}
+
+#numero{
+  background-color:orange;
+  cursor:pointer;
+  color: black;
+  font-size: 0.7em; 
+  margin-bottom: 5px;
+  
+}
+
+#mas:hover{
+  translate: 0 -2px;
+  box-shadow: 0 3px 3px rgb(248, 211, 1);
+
+}
+
+#menos:hover{
+  translate: 0 -2px;
+  box-shadow: 0 3px 3px rgb(248, 211, 1);
+
+}
+
+#numero:hover{
+  translate: 0 -2px;
+  box-shadow: 0 3px 3px rgb(248, 211, 1);
+}
+
+#carrito-vacio{
+color:orange;
+
+}
